@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Channel of Blessings - Supporting Communities in Bangladesh</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1>Channel of Blessings</h1>
+                    <p class="tagline">Building Hope, Transforming Lives</p>
+                </div>
+                <div class="nav-right">
+                    <div class="search-bar">
+                        <input type="text" id="searchInput" placeholder="Search...">
+                        <button id="searchBtn">🔍</button>
+                    </div>
+                    <ul class="nav-menu">
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="our-work.html">Our Work</a></li>
+                        <li><a href="ways-to-help.html">Ways to Help</a></li>
+                        <li><a href="where-we-work.html">Where We Work</a></li>
+                        <li><a href="partner-with-us.html">Partner With Us</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                    </ul>
+                    <a href="#donate" class="donate-btn">Donate</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Empowering Communities in Bangladesh</h2>
+                <p>Working towards Health, Education, Economic and Spiritual Development</p>
+                <a href="#donate" class="cta-btn">Make a Difference Today</a>
+            </div>
+        </section>
+
+        <!-- Mission Overview -->
+        <section class="mission-overview">
+            <div class="container">
+                <h2>Our Mission</h2>
+                <p>Channel of Blessings is a non-profit organization dedicated to supporting communities in Bangladesh through comprehensive development programs.</p>
+                <div class="focus-areas">
+                    <div class="focus-card">
+                        <div class="icon">🏥</div>
+                        <h3>Health</h3>
+                        <p>Providing healthcare access and medical support to underserved communities</p>
+                    </div>
+                    <div class="focus-card">
+                        <div class="icon">📚</div>
+                        <h3>Education</h3>
+                        <p>Building schools and enabling quality education for children and adults</p>
+                    </div>
+                    <div class="focus-card">
+                        <div class="icon">💼</div>
+                        <h3>Economic Development</h3>
+                        <p>Creating sustainable livelihoods and economic opportunities</p>
+                    </div>
+                    <div class="focus-card">
+                        <div class="icon">✨</div>
+                        <h3>Spiritual Development</h3>
+                        <p>Nurturing spiritual growth and community values</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Map -->
+        <section class="map-section">
+            <div class="container">
+                <h2>Where We Work</h2>
+                <p>Our programs are focused on communities across Bangladesh</p>
+                <div id="map"></div>
+            </div>
+        </section>
+
+        <!-- Impact Stats -->
+        <section class="impact-stats">
+            <div class="container">
+                <h2>Our Impact</h2>
+                <div class="stats-grid">
+                    <div class="stat">
+                        <h3>10,000+</h3>
+                        <p>Lives Touched</p>
+                    </div>
+                    <div class="stat">
+                        <h3>50+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat">
+                        <h3>25+</h3>
+                        <p>Communities Served</p>
+                    </div>
+                    <div class="stat">
+                        <h3>15</h3>
+                        <p>Years of Service</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Donate Section -->
+        <section id="donate" class="donate-section">
+            <div class="container">
+                <h2>Support Our Mission</h2>
+                <p>Your donation helps us continue our work in Bangladesh</p>
+                <div class="donate-options">
+                    <button class="amount-btn">$25</button>
+                    <button class="amount-btn">$50</button>
+                    <button class="amount-btn">$100</button>
+                    <button class="amount-btn">$250</button>
+                    <button class="amount-btn">Custom Amount</button>
+                </div>
+                <button class="primary-btn">Donate Now</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Channel of Blessings</h3>
+                    <p>A non-profit organization dedicated to supporting communities in Bangladesh through health, education, economic, and spiritual development.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="our-work.html">Our Work</a></li>
+                        <li><a href="ways-to-help.html">Ways to Help</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Leadership</h3>
+                    <p><strong>Chairman:</strong> Mr. George L. Boidya</p>
+                    <p><strong>Treasurer:</strong> Hubert Boidya</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Stay Connected</h3>
+                    <div class="newsletter">
+                        <input type="email" id="emailInput" placeholder="Enter your email">
+                        <button id="subscribeBtn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Channel of Blessings. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

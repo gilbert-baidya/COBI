@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Where We Work - Channel of Blessings</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1>Channel of Blessings</h1>
+                    <p class="tagline">Building Hope, Transforming Lives</p>
+                </div>
+                <div class="nav-right">
+                    <div class="search-bar">
+                        <input type="text" id="searchInput" placeholder="Search...">
+                        <button id="searchBtn">🔍</button>
+                    </div>
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="our-work.html">Our Work</a></li>
+                        <li><a href="ways-to-help.html">Ways to Help</a></li>
+                        <li><a href="where-we-work.html" class="active">Where We Work</a></li>
+                        <li><a href="partner-with-us.html">Partner With Us</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                    </ul>
+                    <a href="index.html#donate" class="donate-btn">Donate</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Where We Work</h1>
+                <p>Our programs serve communities across Bangladesh</p>
+            </div>
+        </section>
+
+        <section class="location-overview">
+            <div class="container">
+                <div class="overview-content">
+                    <h2>Focus on Bangladesh</h2>
+                    <p>Channel of Blessings concentrates its efforts in Bangladesh, a developing nation where millions face challenges in accessing healthcare, education, and economic opportunities. Our work spans rural villages to urban communities, reaching those who need it most.</p>
+                    <div class="stats-row">
+                        <div class="stat-box">
+                            <h3>25+</h3>
+                            <p>Communities Served</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3>8</h3>
+                            <p>Regions</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3>50+</h3>
+                            <p>Active Projects</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="map-section-full">
+            <div class="container">
+                <h2>Interactive Map</h2>
+                <p>Explore the regions where we're making an impact</p>
+                <div id="map"></div>
+            </div>
+        </section>
+
+        <section class="regions">
+            <div class="container">
+                <h2>Our Regional Programs</h2>
+                <div class="regions-grid">
+                    <div class="region-card">
+                        <h3>Dhaka Division</h3>
+                        <p><strong>Focus:</strong> Urban healthcare and education</p>
+                        <ul>
+                            <li>Mobile health clinics in slum areas</li>
+                            <li>Youth vocational training centers</li>
+                            <li>Adult literacy programs</li>
+                        </ul>
+                    </div>
+                    <div class="region-card">
+                        <h3>Chittagong Division</h3>
+                        <p><strong>Focus:</strong> Economic development and education</p>
+                        <ul>
+                            <li>Women's microfinance initiatives</li>
+                            <li>School construction projects</li>
+                            <li>Agricultural training programs</li>
+                        </ul>
+                    </div>
+                    <div class="region-card">
+                        <h3>Rajshahi Division</h3>
+                        <p><strong>Focus:</strong> Agricultural and rural development</p>
+                        <ul>
+                            <li>Modern farming techniques</li>
+                            <li>Water and sanitation projects</li>
+                            <li>Community health workers training</li>
+                        </ul>
+                    </div>
+                    <div class="region-card">
+                        <h3>Khulna Division</h3>
+                        <p><strong>Focus:</strong> Environmental and health programs</p>
+                        <ul>
+                            <li>Clean water initiatives</li>
+                            <li>Disaster preparedness training</li>
+                            <li>Maternal health services</li>
+                        </ul>
+                    </div>
+                    <div class="region-card">
+                        <h3>Sylhet Division</h3>
+                        <p><strong>Focus:</strong> Education and spiritual development</p>
+                        <ul>
+                            <li>Scholarship programs</li>
+                            <li>Community centers</li>
+                            <li>Youth leadership programs</li>
+                        </ul>
+                    </div>
+                    <div class="region-card">
+                        <h3>Barisal Division</h3>
+                        <p><strong>Focus:</strong> Health and nutrition</p>
+                        <ul>
+                            <li>Nutrition programs for children</li>
+                            <li>Disease prevention campaigns</li>
+                            <li>Mental health support</li>
+                        </ul>
+                    </div>
+                    <div class="region-card">
+                        <h3>Rangpur Division</h3>
+                        <p><strong>Focus:</strong> Economic empowerment</p>
+                        <ul>
+                            <li>Skills training centers</li>
+                            <li>Small business support</li>
+                            <li>Women's cooperatives</li>
+                        </ul>
+                    </div>
+                    <div class="region-card">
+                        <h3>Mymensingh Division</h3>
+                        <p><strong>Focus:</strong> Education and healthcare</p>
+                        <ul>
+                            <li>Teacher training programs</li>
+                            <li>Health awareness campaigns</li>
+                            <li>Library and resource centers</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="expansion">
+            <div class="container">
+                <h2>Future Expansion</h2>
+                <p>While Bangladesh remains our primary focus, we are committed to extending our reach to more communities in need. Our model of sustainable development can be replicated in other regions facing similar challenges.</p>
+                <div class="expansion-goals">
+                    <div class="goal">
+                        <h3>2025-2026</h3>
+                        <p>Expand to 15 additional villages in rural Bangladesh</p>
+                    </div>
+                    <div class="goal">
+                        <h3>2027</h3>
+                        <p>Launch pilot programs in neighboring regions</p>
+                    </div>
+                    <div class="goal">
+                        <h3>2028+</h3>
+                        <p>Establish partnerships for broader South Asian impact</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Channel of Blessings</h3>
+                    <p>A non-profit organization dedicated to supporting communities in Bangladesh through health, education, economic, and spiritual development.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="our-work.html">Our Work</a></li>
+                        <li><a href="ways-to-help.html">Ways to Help</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Leadership</h3>
+                    <p><strong>Chairman:</strong> Mr. George L. Boidya</p>
+                    <p><strong>Treasurer:</strong> Hubert Boidya</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Stay Connected</h3>
+                    <div class="newsletter">
+                        <input type="email" id="emailInput" placeholder="Enter your email">
+                        <button id="subscribeBtn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Channel of Blessings. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
